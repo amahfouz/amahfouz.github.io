@@ -3,24 +3,27 @@ jQuery(document).ready(function($) {
 
     /*======= Skillset *=======*/
     
-    $('.level-bar-inner').css('width', '0');
+    //var innerLevelSelector = '[class^="level-bar-inner"]'
+    var innerLevelSelector = '.level-bar-inner';
+
+    $(innerLevelSelector).css('width', '0');
     
     $(window).on('load', function() {
 
-        $('.level-bar-inner').each(function() {
+        $(innerLevelSelector).each(function() {
         
             var itemWidth = $(this).data('level');
             
             $(this).animate({
                 width: itemWidth
-            }, 800);
+            }, 600);
             
         });
 
     });
     
     /* Bootstrap Tooltip for Skillset */
-    $('.level-label').tooltip();
+//    $('.level-label').tooltip();
     
     
     /* jQuery RSS - https://github.com/sdepold/jquery-rss */

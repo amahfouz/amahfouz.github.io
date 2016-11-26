@@ -381,8 +381,9 @@ iframe {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #66cb8c; 
 }
+
 /* Testimonials section */
 .testimonials .item {
   margin-bottom: 30px;
