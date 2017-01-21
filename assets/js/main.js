@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
     
         //Change this to your own rss feeds
-        "https://aymanmahfouz.blogspot.com/feeds/posts/default",
+        "https://amahfouz.wordpress.com/feed/",
         
         {
         // how many entries do you want?
